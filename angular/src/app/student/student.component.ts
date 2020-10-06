@@ -15,7 +15,7 @@ import {MatDialog} from "@angular/material/dialog";
   styleUrls: ['./student.component.scss']
 })
 export class StudentComponent implements AfterViewInit {
-  sizeOption:number[] = [5, 10, 25];
+  sizeOption:number[] = [2, 5, 10];
   displayedColumns: string[] = ['select', 'idd', 'fio', 'passport', 'birthDate', 'createDate'];
   data: StudentList[];
   selection = new SelectionModel<StudentList>(false, []);
